@@ -1,0 +1,61 @@
+body{
+	text-align: center;
+	background-color: black;
+	color:white;
+}
+
+a{
+	color: white;	
+}
+
+a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+hr{
+	display: block; height: 1px;
+    border: 0; border-top: 1px solid purple;
+    margin: 1em 0; padding: 0;
+}
+
+h3{
+	border-top: thick solid grey;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: thick solid grey;
+}
+
+#welcome{
+	padding-bottom: 30px;
+}
+
+#kindness{
+	background-color: white;
+	color: black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#join{
+	background-color: yellow;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#signUp{
+	background-color: green;
+}
+
+#about{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: orange;
+}
+
+#footer{
+	padding-top: 30px;
+	text-align: left;
+
+}
