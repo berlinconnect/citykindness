@@ -21,10 +21,14 @@ hr{
 }
 
 h3{
-	border-top: thick solid grey;
+	border-top: thin solid grey;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom: thick solid grey;
+	border-bottom: thin solid grey;
+}
+
+.container{
+	max-width: 800px;
 }
 
 #welcome{
