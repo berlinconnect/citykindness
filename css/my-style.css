@@ -7,14 +7,14 @@ body{
 	text-align: center;
 	background-color: black;
 	color:white;
-	font-family: avenir;
+	font-family: avenir,sans-serif;
 }
 
-a{
+.white{
 	color: white;	
 }
 
-a:hover{
+a.white:hover {
 	text-decoration: none;
 	color: white;
 }
@@ -121,6 +121,12 @@ div h1{
 .footer span{
 	font-size: 15px;
 	line-height: 200%;
+}
+
+.black,
+.black:hover{
+	color:black;
+	text-decoration: underline;
 }
 
 .futureminded{
