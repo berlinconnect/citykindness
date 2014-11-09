@@ -38,23 +38,23 @@
           <p class="lead">City Kindness is a community focused partnership seeking to serve some of the most marginalised people in Berlin. This partnership is made possible with the generous support of volunteers from corporate and non-profit sectors working together to express kindness towards others.</p>
           <br>
 
-          <div class="row">
+          <div class="row hidden-xs">
             <a href="#start"><img src="images/pfeil.png" alt="Scroll Down" class="img-responsive center"></img></a>
           </div>
-          <br><br><br>
+          <br><br><br class="hidden-xs">
           <div class="row" id="start">
             <div class="col-sm-4">
               <a href="#kindness" target="_self"><img class="img-responsive center img-rounded" src="images/kindness_img.png" alt="placeholder"></img></a><br>
               <div class="row index">
                 <a href="#kindness" target="_self"><img src="images/kindness_text.png" alt="24 Days of Kindness"></img></a>
               </div>
-            </div>
+            </div><br class="visible-xs"><br class="visible-xs">
             <div class="col-sm-4">
               <a href="#involved" target="_self"><img class="img-responsive center img-rounded" src="images/involved_img.png" alt="placeholder"></img></a><br>
               <div class="row index">
                 <a href="#involved" target="_self"><img src="images/involved_text.png" alt="Getting Involved"></img></a>
               </div>
-            </div>
+            </div><br class="visible-xs"><br class="visible-xs">
             <div class="col-sm-4">
               <a href="#about" target="_self"><img class="img-responsive center img-rounded" src="images/about_img.png" alt="placeholder"></img></a><br>
               <div class="row index">
@@ -77,17 +77,19 @@
 
       <!-- JOIN THE MOVEMENT -->
       <div class="row involved" id="involved">
-         <span>GETTING INVOLVED</span>
+         <p class="hidden-md hidden-lg">GETTING</p>
+         <p class="hidden-md hidden-lg">INVOLVED</p>
+         <p class="hidden-xs hidden-sm">GETTING INVOLVED</p>
       </div>
       
 
       <!-- SIGN UP FORM -->
       <div class="row signUp">
         <div class="container">
-          <br><br><br>
-             <p>City Kindness seeks to support underprivileged children, families in need (including single parents and families seeking refuge) as well as the elderly.</p><br>
+              <br><br><br>
+               <p>City Kindness seeks to support underprivileged children, families in need (including single parents and families seeking refuge) as well as the elderly.</p><br>
 
-             <p>If you wish to know more about the kindness initiatives and partnership possibilities please contact Linda at linda (@) futureminded.de</p>
+              <p>If you wish to know more about the kindness initiatives and partnership possibilities please contact Linda at linda (@) futureminded.de</p>
         </div>
       </div>
 
@@ -109,50 +111,90 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
-              <img src="images/logoBW.png" alt="City Kindness" class="img-responsive"></img>
-            </div>
+              <img src="images/logoBW.png" alt="City Kindness" class="img-responsive hidden-xs"></img>
+              <img src="images/logoBW.png" alt="City Kindness" class="img-responsive visible-xs center"></img>
+            </div><br class="visible-xs"><br class="visible-xs">
             <div class="col-sm-4">
               <a href="#welcome">HOME</a><br>
               <a href="#kindness">24 DAYS OF KINDNESS</a><br>
               <a href="#movement">JOIN THE MOVEMENT</a><br>
               <a href="#about">ABOUT</a><br><br>
-              <a href="">IMPRINT</a><br>
-            </div>
+              <a href="#" data-target="#imprint" data-toggle="modal"><span>IMPRINT</span></a><br>
+            </div><br class="visible-xs"><br class="visible-xs">
             <div class="col-sm-4">
               <h5>THANKS TO OUR PARTNERS</h5>
-              <p class="justify">We are starting coalitions between sectors between sectors and areas. Next to our community of volunteers we are teaming up with employees of these Berlin-based companies:</p>
-              <img src="images/partners.png" alt="Our Partners" class="img-responsive"></img>
+              <div class="container visible-xs">
+                <p class="justify">We are starting coalitions between sectors between sectors and areas. Next to our community of volunteers we are teaming up with employees of these Berlin-based companies:</p>
+              </div>
+                <p class="justify hidden-xs">We are starting coalitions between sectors between sectors and areas. Next to our community of volunteers we are teaming up with employees of these Berlin-based companies:</p><br class="visible-xs">
+              <img src="images/partners.png" alt="Our Partners" class="img-responsive hidden-xs"></img>
+              <img src="images/partners.png" alt="Our Partners" class="img-responsive visible-xs center"></img>
             </div>
           </div>
           <hr>
-          <div class="row">
+          <div class="row hidden-xs">
               <div class="col-sm-4 futureminded">
                 <p>@ Futureminded 2014</p>
               </div>
               <div class="col-sm-4 col-sm-offset-4">
-                <div class="row">
-                <!-- 
-                  <div class="col-sm-2">
-                    <a href="#"><img src="images/en.png" alt="In English" class=""></img></a>
-                  </div>
-                  <div class="col-sm-2">
-                    <a href="#"><img src="images/de.png" alt="Auf Deutsch" class=""></img></a>
-                  </div> 
-                -->
-                  <div class="col-sm-2">
-                    <a href="#"><img src="images/fb.png" alt="Facebook" class=""></img></a>
-                  </div>
-                  <div class="col-sm-2">
-                    <a href="#"><img src="images/twitter.png" alt="Twitter" class=""></img></a>
-                  </div>
-                  <div class="col-sm-2">
-                    <a href="#"><img src="images/instagram.png" alt="Instagram" class=""></img></a>
-                  </div>
-                  <div class="col-sm-2">
-                    <a href="#"><img src="images/tumblr.png" alt="Tumblr" class=""></img></a>
-                  </div>
-                </div>
+                
+                    <a class="right" href="https://twitter.com/future_minded"><img src="images/twitter.png" alt="Twitter" class=""></img></a>
+                  
               </div>
+          </div>
+          <div class="row visible-xs">
+              <div class="col-xs-6 futureminded">
+                <p>@ Futureminded 2014</p>
+              </div>
+              <div class="col-xs-6">
+                 <a  class="right" href="https://twitter.com/future_minded"><img src="images/twitter.png" alt="Twitter" class=""></img></a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODAL -->
+      <div class="modal fade" id="imprint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="myModalLabel">Imprint</h3>
+            </div>
+            <div class="modal-body">
+              <p>Legal Information</p>
+              <p>fmg futureminded group gUG (haftungsbeschränkt) i. G.</p>
+              <p>Ansprechpartner/Contact: David Berndt</p>
+              <p>Weinbergsweg 24, 10119 Berlin</p>
+              <p>Email: david@futureminded.de</p>
+              <p>Phone: +49 (0) 30 9561 5951</p>
+              <p>Approval of registration in progress.</p>
+              <p/>
+              <br><br><br>
+              <p>Privacy Statement:<p/><br>
+
+              <p>General</p>
+              <p>Your personal data (e.g. title, name, house address, e-mail address, phone number, bank details, credit card number) are processed by us only in accordance with the provisions of German data privacy laws. The following provisions describe the type, scope and purpose of collecting, processing and utilizing personal data. This data privacy policy applies only to our web pages. If links on our pages direct you to other pages, please inquire there about how your data is handled in such cases.
+              </p>
+              <br><br>
+              <p>Inventory data</p>
+              <p>(1) Your personal data, insofar as these are necessary for this contractual relationship (inventory data) in terms of its establishment, organization of content and modifications, are used exclusively for fulfilling the contract. For goods to be delivered, for instance, your name and address must be relayed to the supplier of the goods.
+              </p>
+              <p>(2) Without your explicit consent or a legal basis, your personal data are not passed on to third parties outside the scope of fulfilling this contract. After completion of the contract, your data are blocked against further use. After expiry of deadlines as per tax-related and commercial regulations, these data are deleted unless you have expressly consented to their further use.
+              </p><br>
+
+              <p>Web analysis with Google Analytics</p>
+              <p>This website uses Google Analytics, a web analysis service of Google Inc. (Google). Google Analytics uses cookies, i.e. text files stored on your computer to enable analysis of website usage by you. Information generated by the cookie about your use of this website is usually transmitted to a Google server in the United States and stored there. In case of activated IP anonymization on this website, however, your IP address is previously truncated by Google within member states of the European Union or in other states which are party to the agreement on the European Economic Area. Only in exceptional cases is a full IP address transmitted to a Google server in the United States and truncated there. On behalf this website’s owner, Google will use this information to evaluate your use of the website, compile reports about website activities, and provide the website’s operator with further services related to website and Internet usage. The IP address sent from your browser as part of Google Analytics is not merged with other data by Google. You can prevent storage of cookies by appropriately setting your browser software; in this case, however, please note that you might not be able to fully use all functions offered by this website. In addition, you can prevent data generated by the cookie and relating to your use of the website (including your IP address) from being collected and processed by Google, by downloading and installing a browser plug-in from the following link: http://tools.google.com/dlpage/gaoptout?hl=en (http://tools.google.com/dlpage/gaoptout?hl=en)
+              </p>
+              <br><br>
+              <p>Disclosure</p>
+              <p>According to the Federal Data Protection Act, you have a right to free-of-charge information about your stored data, and possibly entitlement to correction, blocking or deletion of such data. Inquiries can be directed to the following e-mail address: david@futureminded.de</p>
+              <p>
+              Source: twigg.de
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>

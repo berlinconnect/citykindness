@@ -90,10 +90,10 @@ h5{
 	color: black;
 	font-size: 26px;
 	font-family: avenir;
-	background-image: url("../images/pinecone_left.png"), url("../images/pinecone_right.png");
+    background-image: url("../images/pinecone_left.png"), url("../images/pinecone_right.png");
 	background-repeat: no-repeat;
 	background-position: left top, right bottom;
-	background-size: contain, 245px 380px;
+	background-size: contain, 245px 360px;
 	height: 480px;
 }
 
@@ -117,20 +117,8 @@ div h1{
 	padding-bottom: 20px;
 }
 
-.leftImg{
-	position: left;
-}
-
-.rightImg{
-	display:block;
-	float:right;
-}
-
-.vertical{
-	margin-top: 50px;
-}
-
-.footer a{
+.footer a,
+.footer span{
 	font-size: 15px;
 	line-height: 200%;
 }
@@ -144,3 +132,61 @@ div h1{
 	text-align:justify;
 	font-size: 10px;
 }
+
+.right{
+	float:right;
+}
+
+.modal-body{
+	color:black;
+	font-size:15px;
+	text-align: left;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:1077px){
+	.involved{
+		
+	}
+
+	.signUp{
+		background-image: none;
+	}
+}
+
+@media(max-width:992px){
+	.involved{
+		line-height:116px;
+	}
+}
+
+@media(max-width:765px){
+	.kindness{
+		padding-bottom: 100px;
+	}
+
+	.involved{
+		font-size:60px;
+		line-height:100px;
+	}
+
+	.signUp{
+		height: 500px;
+		font-size: 22px;
+	}
+
+	.footer{
+		text-align:center;
+	}
+
+	.justify{
+		text-align: center;
+		width:50%;
+		margin-right:auto;
+		margin-left:auto;
+	}
+}
+
