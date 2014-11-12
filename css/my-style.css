@@ -1,20 +1,29 @@
+
+
 @font-face{
-	font-family: avenir;
-	src:url(fonts/Avenir.ttc);
+	font-family: Brandon;
+	src: url('../fonts/Brandonreg.otf');
+}
+
+@font-face{
+	font-family: BrandonBold;
+	src: url('../fonts/Brandon_bld.otf');
 }
 
 body{
 	text-align: center;
 	background-color: black;
 	color:white;
-	font-family: avenir,sans-serif;
+	font-family: Brandon, sans-serif;
 }
 
 .white{
 	color: white;	
 }
 
-a.white:hover {
+a.white:hover,
+a.white:active,
+a.white:visited {
 	text-decoration: none;
 	color: white;
 }
@@ -51,7 +60,7 @@ h5{
 
 .welcome{
 	padding-bottom: 20px;
-	padding-top:120px;
+	padding-top:80px;
 	background-image: url(../images/berlin.png);
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -59,7 +68,7 @@ h5{
 }
 
 .lead{
-	font-size:24px;
+	font-size:30px;
 }
 
 .kindness{
@@ -78,7 +87,7 @@ h5{
 .involved{
 	height: 235px;
 	line-height:235px;
-	background-image: url(../images/movement.png);
+	background-image: url(../images/involved.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:absolute;
@@ -88,13 +97,12 @@ h5{
 .signUp{
 	background-color: white;
 	color: black;
-	font-size: 26px;
-	font-family: avenir;
+	font-size: 28px;
     background-image: url("../images/pinecone_left.png"), url("../images/pinecone_right.png");
 	background-repeat: no-repeat;
 	background-position: left top, right bottom;
 	background-size: contain, 245px 360px;
-	height: 480px;
+	height: 780px;
 }
 
 .about{
@@ -107,8 +115,12 @@ h5{
 	background-size: cover;
 }
 
+.about p{
+	font-size: 30px;
+}
+
 div h1{
-	font-size:70px;
+	font-size:80px;
 }
 
 .footer{
@@ -117,16 +129,13 @@ div h1{
 	padding-bottom: 20px;
 }
 
-.footer a,
-.footer span{
-	font-size: 15px;
+.footer a{
+	font-size: 16px;
 	line-height: 200%;
 }
 
-.black,
-.black:hover{
-	color:black;
-	text-decoration: underline;
+.footer span{
+	font-size: 18px;
 }
 
 .futureminded{
@@ -145,7 +154,7 @@ div h1{
 
 .modal-body{
 	color:black;
-	font-size:15px;
+	font-size:18px;
 	text-align: left;
 }
 
