@@ -1,5 +1,3 @@
-
-
 @font-face{
 	font-family: Brandon;
 	src: url('../fonts/Brandonreg.otf');
@@ -17,27 +15,30 @@ body{
 	font-family: Brandon, sans-serif;
 }
 
-.white{
-	color: white;	
+.gray{
+	color: gray;	
 }
 
-a.white:hover,
-a.white:active,
-a.white:visited {
+.white{
+	color:white;
+}
+
+a.gray:hover,
+a.gray:active,
+a.gray:visited {
 	text-decoration: none;
-	color: white;
+	color: gray;
 }
 
 hr{
 	display: block; height: 1px;
-    border: 0; border-top: 1px solid white;
+    border: 0; border-top: 1px solid gray;
     margin: 1em 0; padding: 0;
 }
 
 h3{
 	border-top: thin solid darkGray;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 12px;
 	border-bottom: thin solid darkGray;
 	color: darkGray
 }
@@ -74,8 +75,14 @@ h5{
 .kindness{
 	background-color: white;
 	color: black;
-	padding-top: 70px;
-	padding-bottom: 150px;
+	padding-bottom: 50px;
+}
+
+.kindnessBG{
+	background-image: url(../images/potsdamer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:absolute;
 }
 
 .baskerville{
@@ -85,24 +92,31 @@ h5{
 }
 
 .involved{
-	height: 235px;
-	line-height:235px;
-	background-image: url(../images/involved.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:absolute;
-	font-size: 80px;
+	height: 340px;
+	background-color: white;
 }
 
 .signUp{
 	background-color: white;
 	color: black;
-	font-size: 28px;
-    background-image: url("../images/pinecone_left.png"), url("../images/pinecone_right.png");
+	font-size: 30px;
+    background-image: url("../images/pinecones.png");
 	background-repeat: no-repeat;
-	background-position: left top, right bottom;
-	background-size: contain, 245px 360px;
-	height: 780px;
+	background-position: bottom;
+	background-size: contain, 345px 360px;
+	padding-bottom: 40px;
+}
+
+.signup div div.pineleft{
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+.signup div div.pineright{
+	position:absolute;
+	bottom: 0px;
+	right: 0px;
 }
 
 .about{
@@ -127,11 +141,15 @@ div h1{
 	padding-top: 50px;
 	text-align: left;
 	padding-bottom: 20px;
+	color:gray;
+}
+
+.footer div.indent{
+	margin-left:88px;
 }
 
 .footer a{
 	font-size: 16px;
-	line-height: 200%;
 }
 
 .footer span{
@@ -148,17 +166,51 @@ div h1{
 	font-size: 10px;
 }
 
-.right{
-	float:right;
-}
-
 .modal-body{
 	color:black;
 	font-size:18px;
 	text-align: left;
 }
 
+input{
+	border: 4px solid black;
+	padding-left:8px;
+	padding-right:8px;
+	font-family: Baskerville;
+	font-style: italic;
+	color:gray;
+	font-size: 28px;
+}
 
+input:focus{
+	border: 6px solid black;
+	outline:none;
+}
+
+input[type="submit"]{
+	background-color: white;
+	font-family: Brandon;
+	font-style: normal;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-family: Baskerville;
+    font-style: italic;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   font-family: Baskerville;
+   font-style: italic;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   font-family: Baskerville;
+   font-style: italic;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   font-family: Baskerville;
+   font-style: italic;
+}
 
 /* MEDIA QUERIES */
 
@@ -166,42 +218,62 @@ div h1{
 	.involved{
 		
 	}
-
-	.signUp{
-		background-image: none;
-	}
 }
 
 @media(max-width:992px){
+	.signUp{
+		
+	}
+}
+
+@media(max-width: 768px) and (min-width: 460px){
 	.involved{
-		line-height:116px;
+		padding-bottom:320px;
 	}
 }
 
 @media(max-width:765px){
+	.welcome{
+		padding-top:50px;
+	}
+
 	.kindness{
-		padding-bottom: 100px;
+		padding-bottom: 50px;
 	}
 
 	.involved{
 		font-size:60px;
-		line-height:100px;
+		height: 240px;
 	}
 
 	.signUp{
-		height: 500px;
+		height: 680px;
 		font-size: 22px;
+		background-image: none;
 	}
 
 	.footer{
 		text-align:center;
 	}
 
+	.footer div.indent{
+	margin-left:0px;
+}
+
 	.justify{
 		text-align: center;
 		width:50%;
 		margin-right:auto;
 		margin-left:auto;
+	}
+
+	.baskerville{
+		font-size: 50px;
+	}
+
+	.about{
+		padding-top:50px;
+		padding-bottom: 70px;
 	}
 }
 

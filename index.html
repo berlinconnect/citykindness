@@ -19,10 +19,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
-
-    <!-- <script type="text/javascript" src="js/gForm.js">
-    </script> -->
+    <script type="text/javascript" src="js/thanks.js">
+    </script>
   </head>
 
 
@@ -34,29 +32,29 @@
         <div class="container">
           
           <img src="images/logo.png" alt="City Kindness" class="img-responsive"></img>
-          <br><br><br>
+          <br><br class="hidden-xs">
           <p class="lead">City Kindness is a community focused partnership seeking to serve some of the most marginalised people in Berlin. This partnership is made possible with the generous support of volunteers from corporate and non-profit sectors working together to express kindness towards others.</p>
           <br>
 
           <div class="row hidden-xs">
             <a href="#start"><img src="images/pfeil.png" alt="Scroll Down" class="img-responsive center"></img></a>
           </div>
-          <br><br><br class="hidden-xs">
+          <br><br class="hidden-xs"><br class="hidden-xs">
           <div class="row" id="start">
             <div class="col-sm-4">
-              <a href="#involved" target="_self"><img class="img-responsive center img-rounded" src="images/involved_img.png" alt="placeholder"></img></a><br>
+              <a href="#involved" target="_self"><img class="img-responsive center img-rounded" src="images/involved_img.png" alt="Getting Involved"></img></a><br>
               <div class="row index">
                 <a href="#involved" target="_self"><img src="images/involved_text.png" alt="Getting Involved"></img></a>
               </div>
             </div><br class="visible-xs"><br class="visible-xs">
             <div class="col-sm-4">
-              <a href="#kindness" target="_self"><img class="img-responsive center img-rounded" src="images/kindness_img.png" alt="placeholder"></img></a><br>
+              <a href="#kindness" target="_self"><img class="img-responsive center img-rounded" src="images/kindness_img.png" alt="24 Days of Kindness"></img></a><br>
               <div class="row index">
                 <a href="#kindness" target="_self"><img src="images/kindness_text.png" alt="24 Days of Kindness"></img></a>
               </div>
             </div><br class="visible-xs"><br class="visible-xs">
             <div class="col-sm-4">
-              <a href="#about" target="_self"><img class="img-responsive center img-rounded" src="images/about_img.png" alt="placeholder"></img></a><br>
+              <a href="#about" target="_self"><img class="img-responsive center img-rounded" src="images/about_img.png" alt="About"></img></a><br>
               <div class="row index">
                 <a href="#about" target="_self"><img src="images/about_text.png" alt="About"></img></a>
               </div>
@@ -67,35 +65,66 @@
         </div>
       </div>
 
-      <!-- KINDNESS/COMING SOON -->
-      <div class="row kindness" id="kindness">
-          <img class="img-responsive center" src="images/kindness.png" alt="24 Days of Kindness"></img>
-          <br><br>
-          <h3 class="col-sm-4 col-sm-offset-4 baskerville">coming soon</h3>
-      </div>
-
       <!-- JOIN THE MOVEMENT -->
       <div class="row involved" id="involved">
-         <p class="hidden-md hidden-lg">GETTING</p>
-         <p class="hidden-md hidden-lg">INVOLVED</p>
-         <p class="hidden-xs hidden-sm">GETTING INVOLVED</p>
+        <img src="images/gettingInvolved.png" alt="Getting Involved" class="img-responsive center-block"></img>
       </div>
       
 
       <!-- SIGN UP FORM -->
       <div class="row signUp">
         <div class="container">
-              <br><br>
-              <p>City Kindness seeks to support underprivileged children, families in need (including single parents and families seeking refuge) as well as the elderly.</p><br>
+            <p>City Kindness seeks to support underprivileged children, families in need (including single parents and families seeking refuge) as well as the elderly.</p><br>
 
-              <p>If you wish to know more about how to be involved in the kindness initiatives and partnership possibilities please fill in the form below. We will contact you shortly.</p>
+            <p>If you wish to know more about how to be involved in the kindness initiatives and partnership possibilities please fill in the form below. We will contact you shortly.</p>
+        </div>
+            <br>
+        <div class="row">
+            <form class="form-horizontal" role="form" action="https://docs.google.com/forms/d/13d9DBrNXeF_SOiNRMHIuYJDK6HIzCVSHUwuXZJplC3U/formResponse" method="POST" onsubmit="" _lpchecked="1">
+              <div class="form-group">
+                  <input type="text" name="entry.69231105" value="" id="entry_69231105" dir="auto" aria-label="First Name  " title="" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                  <input type="text" name="entry.797805573" value="" id="entry_797805573" dir="auto" aria-label="Surname  " title="" placeholder="Surname">
+              </div>
+              <div class="form-group">
+                  <input type="text" name="entry.234351411" value="" id="entry_234351411" dir="auto" aria-label="Organisation  " title="" placeholder="Organisation">
+              </div>
+              <div class="form-group">
+                  <input type="text" name="entry.1406939125" value="" id="entry_1406939125" dir="auto" aria-label="E-mail  " title="" placeholder="Email">
+              </div>
+              
+              <div class="form-group">
+                <input type="submit" name="submit" value="Send">
+              </div>
+            </form>
         </div>
       </div>
+
+
+      <!-- KINDNESS/COMING SOON -->
+      <div class="row kindness" id="kindness">
+          <div class="row kindnessBG">
+            <img class="img-responsive center" src="images/24days_white.png" alt="24 Days of Kindness"></img>
+          </div>
+          <br><br>
+          <h3 class="col-sm-4 col-sm-offset-4 baskerville">coming soon</h3>
+      </div>
+
+
+      <script type="text/javascript" src="/static/forms/client/js/1292488967-formviewer_prd.js"></script>
+      <script type="text/javascript">H5F.setup(document.getElementById('ss-form'));
+          _initFormViewer(
+            "[100,,[]\n]\n");
+      </script>
+
+          <script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ d.innerText=i; } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }}catch(e){}
+          </script>
 
       <!-- ABOUT -->
       <div class="row about" id="about">
         <div class="container">
-          <a href="http://www.future-minded.de" class="white"><h1>ABOUT</h1></a><br><br>
+          <a href="http://www.future-minded.de"><img src="images/about.png"></img></a><br><br>
           <p><a href="http://www.future-minded.de" class="white">Futureminded Group</a> is committed to finding and supporting positive solutions to the challenges Berlin faces now and in the future.</p>
           <br>
           <p>We believe that the future of Berlin can be shaped positively by the resourcefulness of the people that call Berlin their home.</p>
@@ -106,38 +135,39 @@
       <div class="footer">
         <div class="container">
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 col-sm-offset-1">
               <img src="images/logoBW.png" alt="City Kindness" class="img-responsive hidden-xs"></img>
               <img src="images/logoBW.png" alt="City Kindness" class="img-responsive visible-xs center"></img>
             </div><br class="visible-xs"><br class="visible-xs">
-            <div class="col-sm-4">
-              <a href="#welcome" class="white">HOME</a><br>
-              <a href="#kindness" class="white">24 DAYS OF KINDNESS</a><br>
+            <div class="col-sm-1">
+              <a href="#welcome" class="gray">HOME</a><br>
             </div>
-            <div class="col-sm-4">
-              <a href="#about" class="white">ABOUT</a><br>
-              <a href="#involved" class="white">GETTING INVOLVED</a><br>
-              <a class="visible-xs" href="#" data-target="#imprint" data-toggle="modal" class="white"><span>IMPRINT</span></a>
-            </div><br class="visible-xs">
+            <div class="col-sm-4 col-sm-offset-1 indent">
+              <a href="#involved" class="gray">GETTING INVOLVED</a><br>
+              <a href="#kindness" class="gray">24 DAYS OF KINDNESS</a><br>
+              <a href="#about" class="gray">ABOUT</a><br>
+              <a href="#" data-target="#imprint" data-toggle="modal" class="gray">IMPRINT</a>
+            </div>
           </div>
-          <hr>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+              <hr>
+            </div>
+          </div>
           <div class="row hidden-xs">
-              <div class="col-sm-4 futureminded">
-                <a href="http://www.future-minded.de" class="white"><span>@ Futureminded 2014</span></a>
+              <div class="col-sm-4 col-sm-offset-1 futureminded">
+                <a href="http://www.future-minded.de" class="gray"><span>@Futureminded 2014</span></a>
               </div>
               <div class="col-sm-2 col-sm-offset-4">
-                    <a href="#" data-target="#imprint" data-toggle="modal" class="white">IMPRINT</a>
-              </div>
-              <div class="col-sm-2">
-                    <a class="right" href="https://twitter.com/future_minded"><img src="images/twitter.png" alt="Twitter" class=""></img></a>
+                    <a class="pull-right" href="https://twitter.com/future_minded"><img src="images/twitter.png" alt="Twitter" class=""></img></a>
               </div>
           </div>
           <div class="row visible-xs">
-              <div class="col-xs-6 futureminded">
-                <a href="http://www.future-minded.de"><span class="white">@ Futureminded 2014</span></a>
+              <div class="col-xs-8 futureminded">
+                <a href="http://www.future-minded.de"><span class="gray pull-left">@Futureminded 2014</span></a>
               </div>
-              <div class="col-xs-6">
-                 <a  class="right" href="https://twitter.com/future_minded"><img src="images/twitter.png" alt="Twitter" class=""></img></a>
+              <div class="col-xs-2 col-xs-offset-2">
+                 <a  class="pull-right" href="https://twitter.com/future_minded"><img src="images/twitter.png" alt="Twitter" class=""></img></a>
               </div>
           </div>
         </div>
@@ -196,9 +226,6 @@
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
       <script src="js/scroll.js"></script>
-
-      <!-- GOOGLE FORM -->
-
 
   </body>
 </html>
