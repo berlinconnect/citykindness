@@ -30,6 +30,13 @@ a.gray:visited {
 	color: gray;
 }
 
+a.white:hover,
+a.white:active,
+a.white:visited {
+	text-decoration: none;
+	color: white;
+}
+
 hr{
 	display: block; height: 1px;
     border: 0; border-top: 1px solid gray;
@@ -75,7 +82,7 @@ h5{
 .kindness{
 	background-color: white;
 	color: black;
-	padding-bottom: 50px;
+	padding-bottom: 140px;
 }
 
 .kindnessBG{
@@ -83,6 +90,8 @@ h5{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:absolute;
+	height:340px;
+	padding-top:50px;
 }
 
 .baskerville{
@@ -92,8 +101,10 @@ h5{
 }
 
 .involved{
-	height: 340px;
+	height: 380px;
 	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .signUp{
@@ -104,7 +115,7 @@ h5{
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: contain, 345px 360px;
-	padding-bottom: 40px;
+	padding-bottom: 80px;
 }
 
 .signup div div.pineleft{
@@ -117,6 +128,16 @@ h5{
 	position:absolute;
 	bottom: 0px;
 	right: 0px;
+}
+
+.thankyou{
+	border-top: thin solid darkGray;
+	padding-bottom: 8px;
+	border-bottom: thin solid darkGray;
+	color: darkGray;
+	font-family:baskerville;
+	font-style: italic;
+	font-size: 50px;
 }
 
 .about{
@@ -188,9 +209,10 @@ input:focus{
 }
 
 input[type="submit"]{
-	background-color: white;
+	background-color: black;
 	font-family: Brandon;
 	font-style: normal;
+	color:white;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
@@ -232,7 +254,7 @@ input[type="submit"]{
 	}
 }
 
-@media(max-width:765px){
+@media(max-width:768px){
 	.welcome{
 		padding-top:50px;
 	}
@@ -247,9 +269,10 @@ input[type="submit"]{
 	}
 
 	.signUp{
-		height: 680px;
+		height: 820px;
 		font-size: 22px;
 		background-image: none;
+		padding-bottom:50px;
 	}
 
 	.footer{
@@ -274,6 +297,12 @@ input[type="submit"]{
 	.about{
 		padding-top:50px;
 		padding-bottom: 70px;
+	}
+}
+
+@media(max-width:470px){
+	.kindnessBG{
+		height:280px;
 	}
 }
 
