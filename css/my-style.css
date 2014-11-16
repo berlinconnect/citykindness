@@ -12,7 +12,12 @@ body{
 	text-align: center;
 	background-color: black;
 	color:white;
-	font-family: Brandon, sans-serif;
+	font-family:"brandon-grotesque",sans-serif;
+}
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
 }
 
 .gray{
@@ -210,7 +215,7 @@ input:focus{
 
 input[type="submit"]{
 	background-color: black;
-	font-family: Brandon;
+	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	color:white;
 }
