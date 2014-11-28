@@ -90,18 +90,6 @@ h5{
 	color: white;
 }
 
-/*
-.kindnessBG{
-	background-image: url(../images/potsdamer.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:absolute;
-	height:340px;
-	padding-top:50px;
-}
-*/
-
-
 .row.kindness{
 	font-size: 0;
 }
@@ -115,16 +103,65 @@ h5{
 	font-size: 20px;
 	background-color:black;
 	color: white;
+	overflow: hidden;
 }
 
-.box .content {
+.box .content{
 	position: absolute;
+	left: 0;
+	top: 0;
 	width: 100%;
 	height: 100%;
-	background-color: red;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
 }
 
-.hidden {
+.box .content:hover{
+	-webkit-transform:scale(1.02);
+}
+
+.box .content .copy{
+	padding:20% 0;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	text-align: center
+}
+
+.box .content .copy h1{
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.box .content .copy p{
+	font-family: BrandonBold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.box .content .copy p span{
+	text-transform: none;
+	display:block;
+	font-weight:100;
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+.box .content .overlay{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.hidden{
 	display: none;
 }
 
@@ -136,7 +173,7 @@ h5{
 	width: 100%;
 	text-align: center;
 	font-size: 100px;
-	font-family:baskerville;
+	font-family: baskerville;
 	font-style: italic;
 	font-size: 110px;
 	box-sizing: border-box;
@@ -144,78 +181,218 @@ h5{
 	opacity: 0.5;
 }
 
+#box1 .content{
+	display:inline-block;
+	background-image: url('../images/days/1.jpg');
+}
+
 #box1:before{
 	content: '1';
+}
+
+#box2 .content{
+	display:inline-block;
+	background-image: url('../images/days/2.jpg');
 }
 
 #box2:before{
 	content: '2';
 }
 
+#box3 .content{
+	display:inline-block;
+	background-image: url('../images/days/3.jpg');
+}
+
 #box3:before{
 	content: '3';
+}
+
+#box4 .content{
+	display:inline-block;
+	background-image: url('../images/days/4.jpg');
 }
 
 #box4:before{
 	content: '4';
 }
+
+#box5 .content{
+	display:inline-block;
+	background-image: url('../images/days/5.jpg');
+}
+
 #box5:before{
 	content: '5';
 }
+
+#box6 .content{
+	display:inline-block;
+	background-image: url('../images/days/6.jpg');
+}
+
 #box6:before{
 	content: '6';
 }
+
+#box7 .content{
+	display:inline-block;
+	background-image: url('../images/days/7.jpg');
+}
+
 #box7:before{
 	content: '7';
 }
+
+#box8 .content{
+	display:inline-block;
+	background-image: url('../images/days/8.jpg');
+}
+
 #box8:before{
 	content: '8';
 }
+
+#box9 .content{
+	display:inline-block;
+	background-image: url('../images/days/9.jpg');
+}
+
 #box9:before{
 	content: '9';
 }
+
+#box10 .content{
+	display:inline-block;
+	background-image: url('../images/days/10.jpg');
+}
+
 #box10:before{
 	content: '10';
 }
+
+#box11 .content{
+	display:inline-block;
+	background-image: url('../images/days/11.jpg');
+}
+
 #box11:before{
 	content: '11';
 }
+
+#box12 .content{
+	display:inline-block;
+	background-image: url('../images/days/12.jpg');
+}
+
 #box12:before{
 	content: '12';
 }
+
+#box13 .content{
+	display:inline-block;
+	background-image: url('../images/days/13.jpg');
+}
+
 #box13:before{
 	content: '13';
 }
+
+#box14 .content{
+	display:inline-block;
+	background-image: url('../images/days/14.jpg');
+}
+
 #box14:before{
 	content: '14';
 }
+
+#box15 .content{
+	display:inline-block;
+	background-image: url('../images/days/15.jpg');
+}
+
 #box15:before{
 	content: '15';
 }
+
+#box16 .content{
+	display:inline-block;
+	background-image: url('../images/days/16.jpg');
+}
+
 #box16:before{
 	content: '16';
 }
+
+#box17 .content{
+	display:inline-block;
+	background-image: url('../images/days/17.jpg');
+}
+
 #box17:before{
 	content: '17';
 }
+
+#box18 .content{
+	display:inline-block;
+	background-image: url('../images/days/18.jpg');
+}
+
 #box18:before{
 	content: '18';
 }
+
+#box19 .content{
+	display:inline-block;
+	background-image: url('../images/days/19.jpg');
+}
+
 #box19:before{
 	content: '19';
 }
+
+#box20 .content{
+	display:inline-block;
+	background-image: url('../images/days/20.jpg');
+}
+
 #box20:before{
 	content: '20';
 }
+
+#box21 .content{
+	display:inline-block;
+	background-image: url('../images/days/21.jpg');
+}
+
 #box21:before{
 	content: '21';
 }
+
+#box22 .content{
+	display:inline-block;
+	background-image: url('../images/days/22.jpg');
+}
+
 #box22:before{
 	content: '22';
 }
+
+#box23 .content{
+	display:inline-block;
+	background-image: url('../images/days/23.jpg');
+}
+
 #box23:before{
 	content: '23';
 }
+
+#box24 .content{
+	display:inline-block;
+	background-image: url('../images/days/24.jpg');
+}
+
 #box24:before{
 	content: '24';
 }
