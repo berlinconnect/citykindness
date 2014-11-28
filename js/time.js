@@ -7,7 +7,7 @@ $(function() {
 	if(month == 10){
 		while( i < (day+1) ){
 			var boxNumber = "#box" + i;
-			$(boxNumber).addClass("hidden");
+			$(boxNumber .content).removeClass("hidden");
 			i++;
 		}
 	}
