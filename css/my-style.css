@@ -161,7 +161,7 @@ h5{
 	z-index: 0;
 }
 
-.hidden{
+.hideme{
 	display: none;
 }
 
@@ -182,8 +182,8 @@ h5{
 }
 
 #box1 .content{
-	display:inline-block;
 	background-image: url('../images/days/1.jpg');
+	display: inline-block;
 }
 
 #box1:before{
@@ -191,7 +191,6 @@ h5{
 }
 
 #box2 .content{
-	display:inline-block;
 	background-image: url('../images/days/2.jpg');
 }
 
@@ -200,7 +199,6 @@ h5{
 }
 
 #box3 .content{
-	display:inline-block;
 	background-image: url('../images/days/3.jpg');
 }
 
@@ -209,7 +207,6 @@ h5{
 }
 
 #box4 .content{
-	display:inline-block;
 	background-image: url('../images/days/4.jpg');
 }
 
@@ -218,7 +215,6 @@ h5{
 }
 
 #box5 .content{
-	display:inline-block;
 	background-image: url('../images/days/5.jpg');
 }
 
@@ -227,7 +223,6 @@ h5{
 }
 
 #box6 .content{
-	display:inline-block;
 	background-image: url('../images/days/6.jpg');
 }
 
@@ -236,7 +231,6 @@ h5{
 }
 
 #box7 .content{
-	display:inline-block;
 	background-image: url('../images/days/7.jpg');
 }
 
@@ -245,7 +239,6 @@ h5{
 }
 
 #box8 .content{
-	display:inline-block;
 	background-image: url('../images/days/8.jpg');
 }
 
@@ -254,7 +247,6 @@ h5{
 }
 
 #box9 .content{
-	display:inline-block;
 	background-image: url('../images/days/9.jpg');
 }
 
@@ -263,7 +255,6 @@ h5{
 }
 
 #box10 .content{
-	display:inline-block;
 	background-image: url('../images/days/10.jpg');
 }
 
@@ -272,7 +263,6 @@ h5{
 }
 
 #box11 .content{
-	display:inline-block;
 	background-image: url('../images/days/11.jpg');
 }
 
@@ -281,7 +271,6 @@ h5{
 }
 
 #box12 .content{
-	display:inline-block;
 	background-image: url('../images/days/12.jpg');
 }
 
@@ -290,7 +279,6 @@ h5{
 }
 
 #box13 .content{
-	display:inline-block;
 	background-image: url('../images/days/13.jpg');
 }
 
@@ -299,7 +287,6 @@ h5{
 }
 
 #box14 .content{
-	display:inline-block;
 	background-image: url('../images/days/14.jpg');
 }
 
@@ -308,7 +295,6 @@ h5{
 }
 
 #box15 .content{
-	display:inline-block;
 	background-image: url('../images/days/15.jpg');
 }
 
@@ -317,7 +303,6 @@ h5{
 }
 
 #box16 .content{
-	display:inline-block;
 	background-image: url('../images/days/16.jpg');
 }
 
@@ -326,7 +311,6 @@ h5{
 }
 
 #box17 .content{
-	display:inline-block;
 	background-image: url('../images/days/17.jpg');
 }
 
@@ -335,7 +319,6 @@ h5{
 }
 
 #box18 .content{
-	display:inline-block;
 	background-image: url('../images/days/18.jpg');
 }
 
@@ -344,7 +327,6 @@ h5{
 }
 
 #box19 .content{
-	display:inline-block;
 	background-image: url('../images/days/19.jpg');
 }
 
@@ -353,7 +335,6 @@ h5{
 }
 
 #box20 .content{
-	display:inline-block;
 	background-image: url('../images/days/20.jpg');
 }
 
@@ -362,7 +343,6 @@ h5{
 }
 
 #box21 .content{
-	display:inline-block;
 	background-image: url('../images/days/21.jpg');
 }
 
@@ -371,7 +351,6 @@ h5{
 }
 
 #box22 .content{
-	display:inline-block;
 	background-image: url('../images/days/22.jpg');
 }
 
@@ -380,7 +359,6 @@ h5{
 }
 
 #box23 .content{
-	display:inline-block;
 	background-image: url('../images/days/23.jpg');
 }
 
@@ -389,7 +367,6 @@ h5{
 }
 
 #box24 .content{
-	display:inline-block;
 	background-image: url('../images/days/24.jpg');
 }
 
