@@ -224,7 +224,6 @@ h5{
 
 #box2 .content,
 .boxBG2{
-	display:inline-block;
 	background-image: url('../images/days/2.jpg');
 }
 
@@ -709,7 +708,7 @@ input[type="submit"]{
 	}
 
 	.kindnessModal{
-		margin-left:4px; 
+		margin-left:4px;
 		margin-right:4px;
 		margin-bottom:4px;
 	}
