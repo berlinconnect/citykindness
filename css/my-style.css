@@ -707,4 +707,13 @@ input[type="submit"]{
 		width:100%;
 		padding-bottom:100%;
 	}
+
+	.kindnessModal{
+		margin-left:4px; 
+		margin-right:4px;
+		margin-bottom:4px;
+	}
+	.specialSize{
+		font-size:28px !important;
+	}
 }
