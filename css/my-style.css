@@ -1,3 +1,7 @@
+*{
+	outline: none;
+}
+
 @font-face{
 	font-family: Brandon;
 	src: url('../fonts/Brandonreg.otf');
@@ -85,9 +89,31 @@ h5{
 	font-size:30px;
 }
 
+.blackLine{
+	display: block; height: 1px;
+    border: 0; border-top: 10px solid black;
+    margin: 1em 0; padding: 0;
+}
+
 .kindness{
-	background-color: white;
+	background-color: black;
 	color: white;
+}
+
+.whiteBG{
+	background-color: white;
+	font-size: 30px;
+	color:black;
+	padding-bottom:30px;
+}
+
+.kindText{
+	padding-top:30px;
+}
+
+.whiteBG span{
+	font-family: BrandonBold;
+	text-transform: uppercase;
 }
 
 .row.kindness{
@@ -106,7 +132,7 @@ h5{
 	overflow: hidden;
 }
 
-.box .content{
+.box .content, .box .content a{
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -115,8 +141,12 @@ h5{
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
+	color: white;
 }
 
+.box .content a:hover{
+	text-decoration: none;
+}
 .box .content:hover{
 	-webkit-transform:scale(1.02);
 }
@@ -181,32 +211,38 @@ h5{
 	opacity: 0.5;
 }
 
-#box1 .content{
+#box1 .content,
+.boxBG1{
 	background-image: url('../images/days/1.jpg');
-	display: inline-block;
+	display:inline-block;
 }
 
 #box1:before{
 	content: '1';
 }
 
-#box2 .content{
+#box2 .content,
+.boxBG2{
 	background-image: url('../images/days/2.jpg');
+	display:inline-block;
 }
 
 #box2:before{
 	content: '2';
 }
 
-#box3 .content{
+#box3 .content,
+.boxBG3{
 	background-image: url('../images/days/3.jpg');
+	display: inline-block;
 }
 
 #box3:before{
 	content: '3';
 }
 
-#box4 .content{
+#box4 .content,
+.boxBG4{
 	background-image: url('../images/days/4.jpg');
 }
 
@@ -214,7 +250,8 @@ h5{
 	content: '4';
 }
 
-#box5 .content{
+#box5 .content,
+.boxBG5{
 	background-image: url('../images/days/5.jpg');
 }
 
@@ -222,7 +259,8 @@ h5{
 	content: '5';
 }
 
-#box6 .content{
+#box6 .content,
+.boxBG6{
 	background-image: url('../images/days/6.jpg');
 }
 
@@ -230,7 +268,8 @@ h5{
 	content: '6';
 }
 
-#box7 .content{
+#box7 .content,
+.boxBG7{
 	background-image: url('../images/days/7.jpg');
 }
 
@@ -238,7 +277,8 @@ h5{
 	content: '7';
 }
 
-#box8 .content{
+#box8 .content,
+.boxBG8{
 	background-image: url('../images/days/8.jpg');
 }
 
@@ -246,7 +286,8 @@ h5{
 	content: '8';
 }
 
-#box9 .content{
+#box9 .content,
+.boxBG9{
 	background-image: url('../images/days/9.jpg');
 }
 
@@ -254,7 +295,8 @@ h5{
 	content: '9';
 }
 
-#box10 .content{
+#box10 .content,
+.boxBG10{
 	background-image: url('../images/days/10.jpg');
 }
 
@@ -262,7 +304,8 @@ h5{
 	content: '10';
 }
 
-#box11 .content{
+#box11 .content,
+.boxBG11{
 	background-image: url('../images/days/11.jpg');
 }
 
@@ -270,7 +313,8 @@ h5{
 	content: '11';
 }
 
-#box12 .content{
+#box12 .content,
+.boxBG12{
 	background-image: url('../images/days/12.jpg');
 }
 
@@ -278,7 +322,8 @@ h5{
 	content: '12';
 }
 
-#box13 .content{
+#box13 .content,
+.boxBG13{
 	background-image: url('../images/days/13.jpg');
 }
 
@@ -286,7 +331,8 @@ h5{
 	content: '13';
 }
 
-#box14 .content{
+#box14 .content,
+.boxBG14{
 	background-image: url('../images/days/14.jpg');
 }
 
@@ -294,7 +340,8 @@ h5{
 	content: '14';
 }
 
-#box15 .content{
+#box15 .content,
+.boxBG15{
 	background-image: url('../images/days/15.jpg');
 }
 
@@ -302,7 +349,8 @@ h5{
 	content: '15';
 }
 
-#box16 .content{
+#box16 .content,
+.boxBG16{
 	background-image: url('../images/days/16.jpg');
 }
 
@@ -310,7 +358,8 @@ h5{
 	content: '16';
 }
 
-#box17 .content{
+#box17 .content,
+.boxBG17{
 	background-image: url('../images/days/17.jpg');
 }
 
@@ -318,7 +367,8 @@ h5{
 	content: '17';
 }
 
-#box18 .content{
+#box18 .content,
+.boxBG18{
 	background-image: url('../images/days/18.jpg');
 }
 
@@ -326,7 +376,8 @@ h5{
 	content: '18';
 }
 
-#box19 .content{
+#box19 .content,
+.boxBG19{
 	background-image: url('../images/days/19.jpg');
 }
 
@@ -334,7 +385,8 @@ h5{
 	content: '19';
 }
 
-#box20 .content{
+#box20 .content,
+.boxBG20{
 	background-image: url('../images/days/20.jpg');
 }
 
@@ -342,7 +394,8 @@ h5{
 	content: '20';
 }
 
-#box21 .content{
+#box21 .content,
+.boxBG21{
 	background-image: url('../images/days/21.jpg');
 }
 
@@ -350,7 +403,8 @@ h5{
 	content: '21';
 }
 
-#box22 .content{
+#box22 .content,
+.boxBG22{
 	background-image: url('../images/days/22.jpg');
 }
 
@@ -358,7 +412,8 @@ h5{
 	content: '22';
 }
 
-#box23 .content{
+#box23 .content,
+.boxBG23{
 	background-image: url('../images/days/23.jpg');
 }
 
@@ -366,7 +421,8 @@ h5{
 	content: '23';
 }
 
-#box24 .content{
+#box24 .content,
+.boxBG24{
 	background-image: url('../images/days/24.jpg');
 }
 
@@ -374,7 +430,50 @@ h5{
 	content: '24';
 }
 
+.kindnessModal{
+	text-align: center;
+	color:white;
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	height:500px; 
+	margin-left:20px; 
+	margin-right:20px;
+	margin-bottom:20px;
+	display:table;
+}
 
+.kindnessModal div{
+	display:table-cell;
+	vertical-align: middle;
+}
+
+.modal-header img{
+	height:112px; width:350px
+}
+
+.modal-body h1{
+	font-family: BrandonBold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 39px;
+	line-height: 26px;
+}
+
+.modal-body h1 span{
+	font-family: Baskerville;
+	text-transform: none;
+	display:block;
+	font-weight:100;
+	font-size: 40px;
+	margin-bottom: 18px;
+}
+
+.modal-body p{
+	padding-top: 40px;
+	padding-left:80px;
+	padding-right:80px;
+	font-size:34px;
+}
 
 
 
@@ -473,7 +572,7 @@ div h1{
 	font-size: 10px;
 }
 
-.modal-body{
+.imprintModal{
 	color:black;
 	font-size:18px;
 	text-align: left;
@@ -584,11 +683,24 @@ input[type="submit"]{
 		padding-top:50px;
 		padding-bottom: 70px;
 	}
+
+	.box{
+		width:50%;
+		padding-bottom:50%;
+	}
 }
 
 @media(max-width:470px){
 	.kindnessBG{
 		height:280px;
 	}
-}
 
+	.whiteBG{
+		font-size:24px;
+	}
+
+	.box{
+		width:100%;
+		padding-bottom:100%;
+	}
+}
