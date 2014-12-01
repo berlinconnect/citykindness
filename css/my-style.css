@@ -208,9 +208,9 @@ h5{
 	font-size: 110px;
 	box-sizing: border-box;
 	margin-top: 25%;
-	opacity: 0.5;
-	-webkit-mask-image: -webkit-linear-gradient(left, rgba(127,94,15,1), rgba(226,174,35) 24%, rgba(248,225,164,1) 42%, rgba(225, 174, 36, 1) 62%, rgba(162, 121, 11, 1) 83%, rgba(208,181,117,1));
-	-webkit-mask-image: -linear-gradient(left, rgba(127,94,15,1), rgba(226,174,35) 24%, rgba(248,225,164,1) 42%, rgba(225, 174, 36, 1) 62%, rgba(162, 121, 11, 1) 83%, rgba(208,181,117,1));
+  background: -webkit-linear-gradient(#d0b575, #a2790b, #e1ae24, #f8e1a4, #e2ae23, #7f5e0f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #box1 .content,
@@ -224,6 +224,7 @@ h5{
 
 #box2 .content,
 .boxBG2{
+	display:inline-block;
 	background-image: url('../images/days/2.jpg');
 }
 
@@ -429,16 +430,20 @@ h5{
 	content: '24';
 }
 
+.modal-content {
+	box-sizing: border-box;
+	padding: 20px;
+}
 .kindnessModal{
 	text-align: center;
 	color:white;
-	background-repeat: no-repeat; 
-	background-size:cover; 
-	height:500px; 
-	margin-left:20px; 
-	margin-right:20px;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:500px;
+	width: 100%;
 	margin-bottom:20px;
 	display:table;
+	word-wrap: break-word;
 }
 
 .kindnessModal div{
@@ -469,9 +474,9 @@ h5{
 
 .modal-body p{
 	padding-top: 40px;
-	padding-left:80px;
-	padding-right:80px;
+	max-width: 400px;
 	font-size:34px;
+	margin: 0 auto;
 }
 
 
