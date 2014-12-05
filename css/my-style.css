@@ -119,7 +119,8 @@ h5{
 	padding-top:30px;
 }
 
-.whiteBG span{
+.whiteBG span,
+.signUp span{
 	font-family: BrandonBold;
 	text-transform: uppercase;
 }
