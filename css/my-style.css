@@ -47,6 +47,14 @@ a.white:visited {
 	color: white;
 }
 
+a.underline,
+a.underline:hover,
+a.underline:active,
+a.underline:visited{
+	text-decoration: underline;
+	color:black;
+}
+
 hr{
 	display: block; height: 1px;
     border: 0; border-top: 1px solid gray;
