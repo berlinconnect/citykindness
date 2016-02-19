@@ -87,10 +87,16 @@ h5{
 .welcome{
 	padding-bottom: 20px;
 	padding-top:80px;
-	background-image: url(../images/berlin.png);
+	background-image: url(../images/berlin.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position:center;
+}
+
+.logo {
+	margin-top: 150px;
+	padding-bottom: 50px;
+	display: inline-block;
 }
 
 .lead{
@@ -212,8 +218,7 @@ h5{
 	width: 100%;
 	text-align: center;
 	font-size: 100px;
-	font-family: Baskerville;
-	font-style: italic;
+	font-family: Brandon;
 	font-size: 110px;
 	box-sizing: border-box;
 	margin-top: 25%;
@@ -542,9 +547,27 @@ h5{
 	padding-bottom: 140px;
 	background-color: darkGray;
 	font-size: 25px;
-	background-image: url(../images/berlin_blurry.png);
+	background-image: url(../images/berlin2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.getInvolved	{
+	display: inline-block !important;
+	margin-top: 60px;
+	padding: 15px 30px;
+	background: black;
+	color:white;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+
+}
+
+.getInvolved:hover {
+	color: white;
+	text-decoration: none;
+	background: #fad47f;
 }
 
 .about p{
